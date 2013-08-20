@@ -72,9 +72,15 @@ GridSignals.prototype.refresh = function ()
 		var nameFormatted = name.replace(patt, " / ");
 		
 		// tooltip for long names
-		var tooltip = document.createElementNS(this.svgNS,"title");
-		tooltip.textContent = nameFormatted;
-		label.appendChild(tooltip); 	
+//		var tooltip = document.createElementNS(this.svgNS,"title");
+//		tooltip.textContent = nameFormatted;
+//		label.appendChild(tooltip); 	
+		
+		$(label).qtip({ 
+		    content: { text: nameFormatted },
+			show: { delay: 10 },
+			position: { target: 'mouse' }
+		});
 		
 		label.appendChild(document.createTextNode(nameFormatted)); 	
 		this.svgColLabels.appendChild(label);
@@ -115,10 +121,15 @@ GridSignals.prototype.refresh = function ()
 		var nameFormatted = name.replace(patt, " / ");
 		
 		// tooltip for long names
-		var tooltip = document.createElementNS(this.svgNS,"title");
-		tooltip.textContent = nameFormatted;
-		label.appendChild(tooltip); 	
+//		var tooltip = document.createElementNS(this.svgNS,"title");
+//		tooltip.textContent = nameFormatted;
+//		label.appendChild(tooltip); 	
 
+		$(label).qtip({ 
+		    content: { text: nameFormatted },
+			show: { delay: 10 },
+		    position: { target: 'mouse' }
+		});
 		
 		label.appendChild(document.createTextNode(nameFormatted.toString()));	
 		this.svgRowLabels.appendChild(label);

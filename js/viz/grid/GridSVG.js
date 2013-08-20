@@ -22,7 +22,7 @@ function GridSVG()
 	this.scrollBarDim = [30,30];
 	this.svgMinDim = [33, 33];	
 	this.rowLabelsW = 250;
-	this.colLabelsH = 200;
+	this.colLabelsH = 250;
 	this.svgDim = []; 	// x-y dimensions of the svg canvas
 	this.aspect;		// aspect ratio of SVG viewbox (for zooming)
 	this.aspectCol;		// aspect ratio of col viewbox (for zooming)
