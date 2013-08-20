@@ -81,7 +81,7 @@ GridSignals.prototype.refresh = function ()
 
 		var xPos = ((this.nCols)*(this.cellDim[0]+this.cellMargin) + Math.floor(this.cellDim[0]/2) - 1 ); // I don't know why -1 .... getBBox() doesn't really work well 
 		var yPos = this.colLabelsH;
-		label.setAttribute("transform","translate(" + xPos + "," + yPos + ")rotate(90)");
+		label.setAttribute("transform","translate(" + xPos + "," + yPos + ")rotate(35)");
 		
 		this.nCols++;
 	}

@@ -4,8 +4,8 @@
 #gridWrapper{margin: 0 auto;}
 #view{}
 
-#devGrid{position: relative; float: left; background: #fff; font-family: sans-serif;}
-#sigGrid{position: relative; float: left; background: #fff; font-family: sans-serif;}
+#devGrid{position: relative; float: left; background: #fff; font-family:"Tahoma", sans-serif;}
+#sigGrid{position: relative; float: left; background: #fff; font-family:"Tahoma", sans-serif;}
 
 
 
