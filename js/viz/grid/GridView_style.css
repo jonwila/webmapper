@@ -110,7 +110,8 @@ a:hover { color: #036; }
 	cursor: pointer;
 }
 .label_over{
-	font-weight: bold;		
+	font-weight: bold;
+	fill: #ff0000;		
 }
 .label_selected{
 	fill: red;		
